@@ -1,0 +1,202 @@
+ManifestFileVersion: 0
+CRC: 899000853
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: xeng
+      Dependencies: {}
+    Info_1:
+      Name: poker
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: chip
+        Dependency_4: card
+    Info_2:
+      Name: sub_setting
+      Dependencies:
+        Dependency_0: ui
+    Info_3:
+      Name: sub_add_coin
+      Dependencies:
+        Dependency_0: ui
+    Info_4:
+      Name: maubinh
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: card
+    Info_5:
+      Name: sub_chat
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+    Info_6:
+      Name: sub_moi_choi
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+    Info_7:
+      Name: sub_change_avatar
+      Dependencies:
+        Dependency_0: ui
+    Info_8:
+      Name: sub_rut_tien
+      Dependencies:
+        Dependency_0: ui
+    Info_9:
+      Name: ui
+      Dependencies: {}
+    Info_10:
+      Name: prefabs
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: avata
+        Dependency_2: chip
+        Dependency_3: card
+    Info_11:
+      Name: sub_info_ingame
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+    Info_12:
+      Name: lieng
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: chip
+        Dependency_4: card
+    Info_13:
+      Name: sub_change_name
+      Dependencies:
+        Dependency_0: ui
+    Info_14:
+      Name: sub_help
+      Dependencies:
+        Dependency_0: ui
+    Info_15:
+      Name: sub_input
+      Dependencies:
+        Dependency_0: ui
+    Info_16:
+      Name: sam
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: card
+    Info_17:
+      Name: xocdia
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: chip
+        Dependency_4: card
+    Info_18:
+      Name: sub_create_table
+      Dependencies:
+        Dependency_0: ui
+    Info_19:
+      Name: sub_chat_admin
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+    Info_20:
+      Name: sub_change_pass
+      Dependencies:
+        Dependency_0: ui
+    Info_21:
+      Name: phom
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: card
+    Info_22:
+      Name: xito
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: chip
+        Dependency_4: card
+    Info_23:
+      Name: sub_dat_cuoc
+      Dependencies:
+        Dependency_0: ui
+    Info_24:
+      Name: bacay
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: chip
+        Dependency_4: card
+    Info_25:
+      Name: roomscene
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: avata
+    Info_26:
+      Name: sub_up_vip
+      Dependencies:
+        Dependency_0: ui
+    Info_27:
+      Name: sub_rank
+      Dependencies:
+        Dependency_0: ui
+    Info_28:
+      Name: mainscene
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: avata
+    Info_29:
+      Name: tlmn
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: prefabs
+        Dependency_2: avata
+        Dependency_3: card
+    Info_30:
+      Name: sub_noti_doithuong
+      Dependencies: {}
+    Info_31:
+      Name: sub_info_player
+      Dependencies:
+        Dependency_0: ui
+        Dependency_1: avata
+    Info_32:
+      Name: sub_toi_ban
+      Dependencies:
+        Dependency_0: ui
+    Info_33:
+      Name: sub_doi_thuong
+      Dependencies:
+        Dependency_0: ui
+    Info_34:
+      Name: sub_login
+      Dependencies:
+        Dependency_0: ui
+    Info_35:
+      Name: avata
+      Dependencies: {}
+    Info_36:
+      Name: chip
+      Dependencies:
+        Dependency_0: ui
+    Info_37:
+      Name: card
+      Dependencies: {}
+    Info_38:
+      Name: animation
+      Dependencies:
+        Dependency_0: ui
+    Info_39:
+      Name: sub_cuoc
+      Dependencies:
+        Dependency_0: ui

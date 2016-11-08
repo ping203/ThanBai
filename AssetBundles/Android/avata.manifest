@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 370065211
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: afd7c3d0b2fc160f7ec8d932b8e4fea5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Avata/46.png
+- Assets/Avata/47.png
+- Assets/Avata/36.png
+- Assets/Avata/38.png
+- Assets/Avata/22.png
+- Assets/Avata/16.png
+- Assets/Avata/58.png
+- Assets/Avata/60.png
+- Assets/Avata/20.png
+- Assets/Avata/9.png
+- Assets/Avata/5.png
+- Assets/Avata/49.png
+- Assets/Avata/45.png
+- Assets/Avata/50.png
+- Assets/Avata/26.png
+- Assets/Avata/51.png
+- Assets/Avata/15.png
+- Assets/Avata/29.png
+- Assets/Avata/54.png
+- Assets/Avata/59.png
+- Assets/Avata/21.png
+- Assets/Avata/6.png
+- Assets/Avata/7.png
+- Assets/Avata/33.png
+- Assets/Avata/42.png
+- Assets/Avata/3.png
+- Assets/Avata/56.png
+- Assets/Avata/24.png
+- Assets/Avata/37.png
+- Assets/Avata/4.png
+- Assets/Avata/2.png
+- Assets/Avata/40.png
+- Assets/Avata/34.png
+- Assets/Avata/27.png
+- Assets/Avata/10.png
+- Assets/Avata/53.png
+- Assets/Avata/39.png
+- Assets/Avata/14.png
+- Assets/Avata/17.png
+- Assets/Avata/30.png
+- Assets/Avata/55.png
+- Assets/Avata/28.png
+- Assets/Avata/32.png
+- Assets/Avata/35.png
+- Assets/Avata/25.png
+- Assets/Avata/57.png
+- Assets/Avata/13.png
+- Assets/Avata/12.png
+- Assets/Avata/41.png
+- Assets/Avata/44.png
+- Assets/Avata/8.png
+- Assets/Avata/48.png
+- Assets/Avata/19.png
+- Assets/Avata/43.png
+- Assets/Avata/52.png
+- Assets/Avata/23.png
+- Assets/Avata/1.png
+- Assets/Avata/31.png
+- Assets/Avata/18.png
+- Assets/Avata/11.png
+Dependencies: []

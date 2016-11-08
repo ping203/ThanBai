@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 39f7765cbafbed646b439146410fe6e2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - casinoStage: {instanceID: 0}
+  - master: {instanceID: 0}
+  - cardHand: {instanceID: 0}
+  - cardHand3Cay: {instanceID: 0}
+  - cardMauBinhTouch: {instanceID: 0}
+  - body: {instanceID: 0}
+  - timer: {instanceID: 0}
+  - chat: {instanceID: 0}
+  - buttonInvite: {instanceID: 0}
+  - buttonInfo: {instanceID: 0}
+  - buttonDuoi: {instanceID: 0}
+  - avatar: {instanceID: 0}
+  - lb_name_sansang: {instanceID: 0}
+  - lb_money: {instanceID: 0}
+  - sp_sap3chi: {instanceID: 0}
+  - sp_thang: {instanceID: 0}
+  - sp_xoay: {instanceID: 0}
+  - sp_typeCard: {instanceID: 0}
+  - sp_action: {instanceID: 0}
+  - lb_money_result2: {instanceID: 0}
+  - chip: {instanceID: 0}
+  - panelActions: {instanceID: 0}
+  - player: {instanceID: 0}
+  - toggleAction: {instanceID: 0}
+  - CaChua: {fileID: 147156, guid: fa3f514a2cfa192419736dc15f5aa95a, type: 2}
+  - Chan: {fileID: 141188, guid: d6a18cbe8a3d6404882eba281834ad9a, type: 2}
+  - Dep: {fileID: 141958, guid: 6f873b9e44f342a4b8fa374daa2c2ea1, type: 2}
+  - Bua: {fileID: 169372, guid: 9c5d63ca717cfbd45b8f11f426a5f6ea, type: 2}
+  - Bia: {fileID: 108590, guid: 57e49b32078065e45a62ab5cc3a084f6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

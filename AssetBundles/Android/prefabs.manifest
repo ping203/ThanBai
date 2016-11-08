@@ -1,0 +1,144 @@
+ManifestFileVersion: 0
+CRC: 553521494
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 544c92b3ea14a6885f7dd39b33ec5749
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9d6fa8a2e10d29095c0f462e61b4a2d2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07f79c813d1827d4094150d0db26efb0, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1573420865, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 897b5823e77ff9c44a480e8c72f5b897, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87d2c6e30b21e0846bda36f62ce09fee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: abab22241b80bee46b4f152fb3eccc00, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 192ffe640e2bbce40af9e2541b82ba5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3cda43057d115fb4882b061c64da8683, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7bea2316300f224469ee095a17839e63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69566c36715c91f42a40041810106831, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28fbf196f95ae2a42af94f894d5fc412, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3514ee96ad3fb7241956ad5930ab1e18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4e436e654991d54293e8bd84a01f883, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c210972875ccc434489b502b3bd957ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9371fdc8f508b4047883539cbe33e2c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 532caa09b6ca75a498aa2bf006d24b40, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0135c44a022b54040801a12cfccea799, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7fd5d1c6517f1e4e997593a02a2ea66, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff1b103c5daf9c0409af4fb5d6225d45, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d17e84c720935d49b181d779e7fbd32, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73b0801d1c0f39148a1c861d52ce55f0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0390bd8b8ffd640b34fe25065ff1df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b0e9cedcfb7621448f2d3f2db4aa092, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8671c35e0b989504083d621b423bba22, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/UIObject/Button_Avata.prefab
+- Assets/Prefabs/New/ItemTable5.prefab
+- Assets/Prefabs/New/ItemMucCuoc.prefab
+- Assets/Prefabs/New/Mail/ItemMail.prefab
+- Assets/Prefabs/Toast.prefab
+- Assets/Prefabs/New/Effect/Win_Effect.prefab
+- Assets/Prefabs/XocDia/Chip2.prefab
+- Assets/Prefabs/Item/Item_Chat_Smile.prefab
+- Assets/Prefabs/XocDia/ls_White.prefab
+- Assets/Prefabs/XocDia/ls_Red.prefab
+- Assets/Prefabs/UIObject/Button_Gift.prefab
+- Assets/Prefabs/New/Table/Table.prefab
+- Assets/Prefabs/Player/GameTo/Chat_Smile.prefab
+- Assets/Prefabs/New/ItemTable4.prefab
+- Assets/Prefabs/New/PanelPopup.prefab
+- Assets/Prefabs/InGame/Light.prefab
+- Assets/Prefabs/Card/CardMB.prefab
+- Assets/Prefabs/XocDia/Chip1.prefab
+- Assets/Prefabs/Item/ItemRank.prefab
+- Assets/Prefabs/New/IAP/Item9029.prefab
+- Assets/Prefabs/XocDia/Chip4.prefab
+- Assets/Prefabs/New/Effect/Camera.prefab
+- Assets/Prefabs/XocDia/XD_Red.prefab
+- Assets/Prefabs/New/ItemGame.prefab
+- Assets/Prefabs/XocDia/Chip3.prefab
+- Assets/Prefabs/PanelWait.prefab
+- Assets/Prefabs/Item/ItemMoiChoi.prefab
+- Assets/Prefabs/New/IAP/ItemMenhGia.prefab
+- Assets/Prefabs/New/Info/Box_NPC.prefab
+- Assets/Scripts/emsandacom/ChatAdmin/ItemSuKien.prefab
+- Assets/Prefabs/XocDia/XD_White.prefab
+- Assets/Prefabs/Player/GameTo/Chat_Text.prefab
+- Assets/Prefabs/New/ItemTable9.prefab
+Dependencies:
+- AssetBundles/Android/ui
+- AssetBundles/Android/avata
+- AssetBundles/Android/chip
+- AssetBundles/Android/card

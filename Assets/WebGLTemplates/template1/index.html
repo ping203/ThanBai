@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>RGame | RGame - Game bài đổi thưởng</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>RGame | </span>RGame - Game bài đổi thưởng</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="900px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">RGame</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/webgame.datagz",
+    codeUrl: "Release/webgame.jsgz",
+    memUrl: "Release/webgame.memgz",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+<!--Xu ly voi unity-->
+<script>
+  // This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    if (response.status === 'connected') {
+		SendMessage('FacebookControl', 'SendAccetoken', response.authResponse.accessToken);
+    }
+  }
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '1380151455333128',
+    cookie     : true,  // enable cookies to allow the server to access 
+                        // the session
+    xfbml      : true,  // parse social plugins on this page
+    version    : 'v2.5' // use graph api version 2.5
+  });
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  
+  function myFacebookLogin() {
+	  FB.login(
+	  function(response){
+		checkLoginState();
+	  }, {scope: 'public_profile,email'});
+	}
+	
+	function myFacebookInvite() {
+		FB.getLoginStatus(function(response) {
+			if (response.status === 'connected') {
+				FB.ui({method: 'apprequests',
+					  message: 'RGame - Chơi bài đổi thưởng!'
+					}, function(response){
+					   if (response) {
+						alert('Mời bạn bè thành công!');
+					   } else {
+						alert('Mời bạn bè thất bại!');
+					   }
+					});
+			}else{
+			alert('Bạn chưa đăng nhập facebook!');
+			}
+		});
+	}
+	
+	function StartLoad() {
+        //alert('haha');
+    }
+	
+	function ShareFB(vip) {
+		var str = 'Chúc mừng bạn đã lên vip ' + vip;
+        //alert(str);
+       FB.ui({
+		  method: 'share',
+		  href: 'http://choibaidoithuong.org/',
+		  caption: str,
+		}, function(response){
+		
+		});
+    }
+
+	
+	window.onbeforeunload = function () {
+		return "";
+	}
+</script>
+<!--End Xu ly voi unity-->
+
+  </body>
+</html>

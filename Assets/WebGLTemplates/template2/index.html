@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>RGame | RGame - Game bài đổi thưởng</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico"/>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body class="template">
+<p class="header"><span>RGame | </span>RGame - Game bài đổi thưởng</p>
+<div class="template-wrap clear" style=" width: 900px;
+    margin: 0px auto;">
+
+    <!-- .start head main -->
+    <div id='header_main'>
+        <!--dcm web game-->
+        <div class="w3-content w3-section" style="max-width:100%;max-height: 100px; margin: 0px auto;">
+            <img class="mySlides" src="images/1111.png" style="width:100%; height: 221px;"/>
+            <img class="mySlides" src="images/2222.png" style="width:100%; height: 221px;"/>
+        </div>
+    </div>
+    <script>
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <!-- . end head main with js-->
+
+    <div id="loading">
+
+        <!--Loading content, please wait..xx-->
+        <img style="width: 900px" src="images/nen.gif" alt="loading.."/>
+    </div>
+    <div id="canvas_game" style="display: none">
+        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px"
+                width="900px"></canvas>
+    </div>
+    <br>
+    <div class="logo"></div>
+    <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen"
+                                 title="Fullscreen" onclick="SetFullscreen(1);"/></div>
+    <div class="title">RGame</div>
+    <div style="clear:both;">
+    </div>
+    <div id='support'>
+        <!--dcm web game-->
+        <div id="support_left" style="width: 500px;">
+            <!-- Page plugin's width will be 190px -->
+            <div class="fb-page" data-href="https://www.facebook.com/rgame.gamedoithuong/?fref=ts"
+                 data-width="500"></div>
+        </div>
+        <div id="support_right">
+            <br/>
+            <a href="#"><img src="images/11.png"/></a><br/><br/>
+            <a href="#"> <img src="images/22.png"/></a> <br/><br/>
+            <a href="#"> <img src="images/33.png"/></a>
+        </div>
+    </div>
+
+</div>
+<p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+<script type='text/javascript'>
+    var isLoaded = false;
+    var Module = {
+        TOTAL_MEMORY: 268435456,
+        errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        dataUrl: "Release/webgame.datagz",
+        codeUrl: "Release/webgame.jsgz",
+        memUrl: "Release/webgame.memgz",
+    };
+</script>
+<script src="Release/UnityLoader.js"></script>
+<!--Xu ly voi unity-->
+<script>
+    // This is called with the results from from FB.getLoginStatus().
+    function statusChangeCallback(response) {
+        if (response.status === 'connected') {
+            SendMessage('FacebookControl', 'SendAccetoken', response.authResponse.accessToken);
+        }
+    }
+    function checkLoginState() {
+        FB.getLoginStatus(function (response) {
+            statusChangeCallback(response);
+        });
+    }
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '1380151455333128',
+            cookie: true,  // enable cookies to allow the server to access
+                           // the session
+            xfbml: true,  // parse social plugins on this page
+            version: 'v2.5' // use graph api version 2.5
+        });
+    };
+
+    // Load the SDK asynchronously
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/vi_VN/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    function myFacebookLogin() {
+        FB.login(
+                function (response) {
+                    checkLoginState();
+                }, {scope: 'public_profile,email'});
+    }
+
+    function myFacebookInvite() {
+        FB.getLoginStatus(function (response) {
+            if (response.status === 'connected') {
+                FB.ui({
+                    method: 'apprequests',
+                    message: 'RGame - Chơi bài đổi thưởng!'
+                }, function (response) {
+                    if (response) {
+                        alert('Mời bạn bè thành công!');
+                    } else {
+                        alert('Mời bạn bè thất bại!');
+                    }
+                });
+            } else {
+                alert('Bạn chưa đăng nhập facebook!');
+            }
+        });
+    }
+
+    function StartLoad() {
+        //alert('haha');
+        isLoaded = true;
+        if (isLoaded) {
+            $("#canvas_game").show();
+            $("#loading").hide();
+        }
+    }
+
+    function ShareFB(vip) {
+        var str = 'Chúc mừng bạn đã lên vip ' + vip;
+        //alert(str);
+        FB.ui({
+            method: 'share',
+            href: 'http://choibaidoithuong.org/',
+            caption: str,
+        }, function (response) {
+
+        });
+    }
+
+
+    window.onbeforeunload = function () {
+        return "";
+    }
+</script>
+<!--End Xu ly voi unity-->
+
+</body>
+</html>
